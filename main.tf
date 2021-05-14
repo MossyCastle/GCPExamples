@@ -8,7 +8,7 @@ provider "google" {
   project = "My Project 38496"
   region  = "us-central1"
   zone    = "us-central1-c"
- credentials = "${file("tfaccess.json")}"
+ credentials = file("tfaccess.json")
   /* {
   "type": "service_account",
   "project_id": "totemic-cursor-313719",

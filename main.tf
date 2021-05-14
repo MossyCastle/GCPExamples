@@ -5,7 +5,7 @@ GCP example Terraform test.
 
 
 provider "google" {
-  project = "{{YOUR GCP PROJECT}}"
+  project = "My Project 38496"
   region  = "us-central1"
   zone    = "us-central1-c"
 }

@@ -8,7 +8,8 @@ provider "google" {
   project = "My Project 38496"
   region  = "us-central1"
   zone    = "us-central1-c"
- credentials = {
+ credentials = "${file("tfaccess.json")}"
+  /* {
   "type": "service_account",
   "project_id": "totemic-cursor-313719",
   "private_key_id": "3ea5c3029adebd1d5e3b7278323df56b3424ac4d",
@@ -20,7 +21,8 @@ provider "google" {
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tfaccess%40totemic-cursor-313719.iam.gserviceaccount.com"
 }
-
+*/
+    
 }
 
 
